@@ -43,6 +43,23 @@ Output variable (based on sensory data):
 
 # Steps
 
+1. Import Required Libraries
+2. Import Dataset
+3. Understand the dataset
+4. Perform the EDA
+5. Check for outliers
+6. Separate the data into input features and target feature
+7. Perform feature scaling on input features
+8. Check the correlation among the data
+9. Handle the imbalanced data
+10. Spilt the data into training and testing
+11. Create a model
+12. Make sure if the data is flattened and encoded properly
+13. Build the model
+14. Train the model
+15. Predict the model
+16. Check for accuracy and classification report
+17. For satisfied performance of the model repeat steps 13, 14, 15, and 16 by hypertunning the model
 
 # Acknowledgements
 This dataset is also available from the UCI machine learning repository, https://archive.ics.uci.edu/ml/datasets/wine+quality.
