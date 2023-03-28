@@ -1,5 +1,5 @@
 # Wine-Quality-Prediction-using-ann
-Predicting the Quality of Red Wine using Machine Learning Algorithms for Regression Analysis, Data Visualizations and Data Analysis.
+Predicting the Quality of Red Wine using Deep Learning Algorithms for Classification Analysis, Data Visualizations and Data Analysis.
 
 # Description
 
