@@ -59,6 +59,31 @@ For more information, read [Cortez et al., 2009].
 16. Check for accuracy and classification report
 17. For satisfied performance of the model repeat steps 13, 14, 15, and 16 by hypertunning the model
 
+## Dataset Information
+- The dataset contains 1599 rows and 12 columns. The target variable 'quality' has values ranging from 3 to 8, with most wines having a quality of 5 or 6.
+- The dataset has no missing values, and all features are of type float64. The describe function provides statistical summaries of the numerical columns.
+
+## Exploratory Data Analysis (EDA)
+EDA involves visualizing the distribution of each feature and exploring the imbalanced nature of the quality variable.
+
+## Outlier Check
+Visualizing box plots for each feature to identify potential outliers in the data.
+
+## Data Preprocessing
+Scaling the features using StandardScaler to ensure uniformity in feature scales.
+
+## Correlation Heatmap
+Creating a heatmap to visualize the correlation matrix of the features.
+
+## Handling Imbalanced Dataset
+Utilizing SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset.
+
+## Model Building - Neural Network
+Splitting the data into training and testing sets and building a neural network model for predicting wine quality.
+
+# Conclusion
+This notebook covers the entire process of wine quality prediction, from data exploration and preprocessing to building a neural network model. The handling of an imbalanced dataset using SMOTE and the creation of visualizations provide insights into the wine dataset.
+
 ## Acknowledgements
 This dataset is also available from the UCI machine learning repository, https://archive.ics.uci.edu/ml/datasets/wine+quality.
 
