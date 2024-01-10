@@ -1,16 +1,14 @@
-# Wine-Quality-Prediction-using-ann
+# Wine Quality Prediction using ANN
 Predicting the Quality of Red Wine using Deep Learning Algorithms for Classification Analysis, Data Visualizations and Data Analysis.
 
-# Description
-
-# Context
+## Context
 The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult the reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
 
 These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones).
 
 This dataset is also available from the UCI machine learning repository, https://archive.ics.uci.edu/ml/datasets/wine+quality.
 
-# Content
+## Content
 For more information, read [Cortez et al., 2009].
 
 ##### Input variables (based on physicochemical tests):
@@ -41,7 +39,7 @@ For more information, read [Cortez et al., 2009].
 
 12 - quality (score between 0 and 10) 
 
-# Steps
+## Steps
 
 1. Import Required Libraries
 2. Import Dataset
@@ -61,10 +59,10 @@ For more information, read [Cortez et al., 2009].
 16. Check for accuracy and classification report
 17. For satisfied performance of the model repeat steps 13, 14, 15, and 16 by hypertunning the model
 
-# Acknowledgements
+## Acknowledgements
 This dataset is also available from the UCI machine learning repository, https://archive.ics.uci.edu/ml/datasets/wine+quality.
 
 Please include this citation if you plan to use this database: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
 
-# Relevant publication
+## Relevant publication
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
